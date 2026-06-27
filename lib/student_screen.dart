@@ -7,7 +7,6 @@ class StudentScreen extends StatefulWidget {
   @override
   State<StudentScreen> createState() => _StudentScreenState();
 }
-
 class _StudentScreenState extends State<StudentScreen> {
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _rollController = TextEditingController();
